@@ -1,4 +1,4 @@
-# VERSION 1.0
+# VERSION 1.1
 # DOCKER-VERSION  1.2.0
 # AUTHOR:         Richard Lee <lifuzu@gmail.com>
 # DESCRIPTION:    Devbase-scala Image Container
@@ -12,9 +12,9 @@ USER    root
 
 # Information Of Package
 ENV     PKG_ALIAS scala
-ENV     PKG_VERSION scala-2.11.2
+ENV     PKG_VERSION scala-2.11.5
 ENV     PKG_PACKAGE $PKG_VERSION.tgz
-ENV     PKG_LINK http://downloads.typesafe.com/scala/2.11.2/$PKG_PACKAGE
+ENV     PKG_LINK http://downloads.typesafe.com/scala/2.11.5/$PKG_PACKAGE
 
 
 # Intall scala
@@ -29,9 +29,10 @@ ENV     PATH $PATH:$SCALA_HOME/bin
 
 
 # Information Of Package
+# sbt - http://www.scala-sbt.org/
 ENV     PKG_ALIAS sbt
-ENV	PKG_VERSION sbt-0.13.6
-ENV	PKG_PACKAGE sbt-0.13.6.tgz
+ENV	PKG_VERSION sbt-0.13.7
+ENV	PKG_PACKAGE sbt-0.13.7.tgz
 ENV	PKG_LINK https://dl.bintray.com/sbt/native-packages/sbt/0.13.6/$PKG_PACKAGE
 
 # Intall sbt
