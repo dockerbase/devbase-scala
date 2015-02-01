@@ -24,7 +24,6 @@ This repository contains **Dockerbase** of [Devbase-scala](http://www.scala-lang
 
     Description:	Ubuntu 14.04.1 LTS
     git version 1.9.1
-    ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-linux]
     OpenSSH_6.6.1p1 Ubuntu-2ubuntu2, OpenSSL 1.0.1f 6 Jan 2014
     GNU Make 3.81
     Copyright (C) 2006  Free Software Foundation, Inc.
@@ -37,4 +36,4 @@ This repository contains **Dockerbase** of [Devbase-scala](http://www.scala-lang
     java version "1.8.0_20"
     Java(TM) SE Runtime Environment (build 1.8.0_20-b26)
     Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
-    Scala code runner version 2.11.2 -- Copyright 2002-2013, LAMP/EPFL
+    Scala code runner version 2.11.5 -- Copyright 2002-2013, LAMP/EPFL

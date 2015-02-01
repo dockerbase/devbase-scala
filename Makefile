@@ -22,7 +22,7 @@ ls_volume:
 		ls -ls $$DIR
 
 version:
-	docker run -it --rm $(NAME):$(VERSION) sh -c " lsb_release -d ; git --version ; ruby -v ; ssh -V ; make -v " | tee COMPONENTS
+	docker run -it --rm $(NAME):$(VERSION) sh -c " lsb_release -d ; git --version ; ssh -V ; make -v " | tee COMPONENTS
 	docker run -it --rm $(NAME):$(VERSION) sh -c " javac -version ; java -version " | tee -a COMPONENTS
 	docker run -it --rm $(NAME):$(VERSION) sh -c " scala -version " | tee -a COMPONENTS
 	dos2unix COMPONENTS
