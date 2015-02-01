@@ -33,7 +33,7 @@ ENV     PATH $PATH:$SCALA_HOME/bin
 ENV     PKG_ALIAS sbt
 ENV	PKG_VERSION sbt-0.13.7
 ENV	PKG_PACKAGE sbt-0.13.7.tgz
-ENV	PKG_LINK https://dl.bintray.com/sbt/native-packages/sbt/0.13.6/$PKG_PACKAGE
+ENV	PKG_LINK https://dl.bintray.com/sbt/native-packages/sbt/0.13.7/$PKG_PACKAGE
 
 # Intall sbt
 RUN     cd /tmp && \
